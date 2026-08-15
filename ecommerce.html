@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanika Store | E-Commerce Project</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header"><nav class="nav container"><a class="logo" href="index.html">Sanika<span>.</span></a><button class="menu" onclick="toggleMenu()">☰</button><div class="nav-links" id="navLinks"><a href="index.html">Portfolio</a><a href="#shop">Shop</a><a href="#categories">Categories</a><a href="#about-store">About</a><a href="#contact-store">Contact</a></div></nav></header>
+
+<section class="shop-hero"><div class="container shop-hero-inner"><div><p class="eyebrow">MINI PROJECT • E-COMMERCE</p><h1>Sanika <span>Store</span></h1><p class="lead">A clean and responsive e-commerce website project built with HTML, CSS and JavaScript.</p><a class="btn" href="#shop">Shop Now</a></div><div class="shop-badge">SM<br><small>ONLINE STORE</small></div></div></section>
+
+<section id="categories" class="section"><div class="container"><p class="eyebrow">CATEGORIES</p><h2 class="section-title">Shop by Category</h2><div class="category-grid"><button onclick="filterProducts('all')">All</button><button onclick="filterProducts('fashion')">Fashion</button><button onclick="filterProducts('tech')">Technology</button><button onclick="filterProducts('lifestyle')">Lifestyle</button></div></div></section>
+
+<section id="shop" class="section dark"><div class="container"><div class="shop-head"><div><p class="eyebrow">FEATURED PRODUCTS</p><h2 class="section-title">Our Products</h2></div><div class="cart-box">🛒 Cart: <b id="cartCount">0</b> items</div></div><div id="products" class="product-grid"></div></div></section>
+
+<section id="about-store" class="section"><div class="container"><p class="eyebrow">PROJECT INFO</p><h2 class="section-title">About This Website</h2><div class="two-col"><div><p>This e-commerce mini project demonstrates a modern shopping interface, product categories, search/filter behavior, cart interaction and responsive design.</p></div><div class="card"><h3>Technologies</h3><p>HTML5 • CSS3 • JavaScript</p><p>Responsive UI • Product Cards • Cart Demo</p></div></div></div></section>
+
+<section id="contact-store" class="section dark"><div class="container"><p class="eyebrow">CONTACT</p><h2 class="section-title">Store Contact</h2><div class="two-col"><div><p>📧 your-email@example.com</p><p>📍 Shivaji University</p><p>👩‍💻 Created by Sanika Mane</p></div><div class="card"><h3>Need Help?</h3><p>This is an academic demo project. Product checkout is simulated for front-end demonstration.</p></div></div></div></section>
+
+<footer><div class="container footer-flex"><span>© <span id="year"></span> Sanika Store</span><a href="index.html">← Back to Portfolio</a></div></footer>
+<script src="script.js"></script>
+</body></html>
